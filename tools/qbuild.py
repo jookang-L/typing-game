@@ -15,7 +15,7 @@ TYPE_O, TYPE_F, TYPE_E = "출력 결과", "빈칸 채우기", "오류 찾기"
 
 def O(cmd, code, correct, wrongs, expl, stdin=None, sub=None):
     note = f" (입력: {stdin.replace(chr(10), ' ⏎ ')})" if stdin else ""
-    return dict(cmd=cmd, type=TYPE_O, q=f"다음 코드의 출력 결과는? {code}{note}", correct=correct,
+    return dict(cmd=cmd, type=TYPE_O, q=f"다음 코드의 출력 결과는?{note}\n{code}", correct=correct,
                 wrongs=wrongs, expl=expl, run=code, stdin=stdin, sub=sub)
 
 

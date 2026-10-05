@@ -6,7 +6,7 @@
   "command": "print('Hello')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('Hello')",
+   "question": "다음 코드의 출력 결과는?\nprint('Hello')",
    "choices": [
     "Hello",
     "'Hello'",
@@ -24,7 +24,7 @@
   "command": "print(3 + 4)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(3 + 4)",
+   "question": "다음 코드의 출력 결과는?\nprint(3 + 4)",
    "choices": [
     "7",
     "3 + 4",
@@ -42,7 +42,7 @@
   "command": "print('a', 'b')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('a', 'b')",
+   "question": "다음 코드의 출력 결과는?\nprint('a', 'b')",
    "choices": [
     "ab",
     "a,b",
@@ -60,7 +60,7 @@
   "command": "print('Hi' * 3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('Hi' * 3)",
+   "question": "다음 코드의 출력 결과는?\nprint('Hi' * 3)",
    "choices": [
     "HiHiHi",
     "오류",
@@ -96,7 +96,7 @@
   "command": "print(10 // 3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(10 // 3)",
+   "question": "다음 코드의 출력 결과는?\nprint(10 // 3)",
    "choices": [
     "3.33",
     "1",
@@ -114,7 +114,7 @@
   "command": "print('A' + 'B')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('A' + 'B')",
+   "question": "다음 코드의 출력 결과는?\nprint('A' + 'B')",
    "choices": [
     "A B",
     "오류",
@@ -132,7 +132,7 @@
   "command": "print(2 ** 3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(2 ** 3)",
+   "question": "다음 코드의 출력 결과는?\nprint(2 ** 3)",
    "choices": [
     "9",
     "8",
@@ -150,7 +150,7 @@
   "command": "print('a', 'b', sep='-')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('a', 'b', sep='-')",
+   "question": "다음 코드의 출력 결과는?\nprint('a', 'b', sep='-')",
    "choices": [
     "ab",
     "a-b",
@@ -168,7 +168,7 @@
   "command": "print(len('abc'))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(len('abc'))",
+   "question": "다음 코드의 출력 결과는?\nprint(len('abc'))",
    "choices": [
     "4",
     "abc",
@@ -186,7 +186,7 @@
   "command": "print('Name:', 'Kim')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('Name:', 'Kim')",
+   "question": "다음 코드의 출력 결과는?\nprint('Name:', 'Kim')",
    "choices": [
     "Name:, Kim",
     "Name: Kim",
@@ -204,7 +204,7 @@
   "command": "print('a' * 2 + 'b')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('a' * 2 + 'b')",
+   "question": "다음 코드의 출력 결과는?\nprint('a' * 2 + 'b')",
    "choices": [
     "aab",
     "a2b",
@@ -222,7 +222,7 @@
   "command": "print(1, 2, 3, sep=', ')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(1, 2, 3, sep=', ')",
+   "question": "다음 코드의 출력 결과는?\nprint(1, 2, 3, sep=', ')",
    "choices": [
     "1 2 3",
     "123",
@@ -240,7 +240,7 @@
   "command": "print('Hi', end='!')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('Hi', end='!'); print('Yo')",
+   "question": "다음 코드의 출력 결과는?\nprint('Hi', end='!'); print('Yo')",
    "choices": [
     "Hi Yo",
     "HiYo",
@@ -258,7 +258,7 @@
   "command": "print(f'{3 + 4}')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(f'{3 + 4}')",
+   "question": "다음 코드의 출력 결과는?\nprint(f'{3 + 4}')",
    "choices": [
     "7",
     "3 + 4",
@@ -276,7 +276,7 @@
   "command": "print('%d + %d' % (1, 2))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('%d + %d' % (1, 2))",
+   "question": "다음 코드의 출력 결과는?\nprint('%d + %d' % (1, 2))",
    "choices": [
     "%d + %d",
     "1 + 2 = 3",
@@ -294,7 +294,7 @@
   "command": "print(\"It's\")",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(\"It's\")",
+   "question": "다음 코드의 출력 결과는?\nprint(\"It's\")",
    "choices": [
     "\"It's\"",
     "Its",
@@ -330,7 +330,7 @@
   "command": "print(5 > 3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(5 > 3)",
+   "question": "다음 코드의 출력 결과는?\nprint(5 > 3)",
    "choices": [
     "True",
     "5 > 3",
@@ -348,7 +348,7 @@
   "command": "print(round(3.14159, 2))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(round(3.14159, 2))",
+   "question": "다음 코드의 출력 결과는?\nprint(round(3.14159, 2))",
    "choices": [
     "3.15",
     "3.1",
@@ -366,7 +366,7 @@
   "command": "print(*[1, 2, 3])",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(*[1, 2, 3])",
+   "question": "다음 코드의 출력 결과는?\nprint(*[1, 2, 3])",
    "choices": [
     "1, 2, 3",
     "[1, 2, 3]",
@@ -384,7 +384,7 @@
   "command": "print('-' * 10)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('-' * 10)",
+   "question": "다음 코드의 출력 결과는?\nprint('-' * 10)",
    "choices": [
     "-10",
     "-----",
@@ -402,7 +402,7 @@
   "command": "print(1, 2, sep='+', end='=')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(1, 2, sep='+', end='='); print(3)",
+   "question": "다음 코드의 출력 결과는?\nprint(1, 2, sep='+', end='='); print(3)",
    "choices": [
     "1 2 3",
     "1+2 3",
@@ -420,7 +420,7 @@
   "command": "print(f'{3.14159:.2f}')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(f'{3.14159:.2f}')",
+   "question": "다음 코드의 출력 결과는?\nprint(f'{3.14159:.2f}')",
    "choices": [
     "3.14",
     "3.142",
@@ -438,7 +438,7 @@
   "command": "print('{} is {}'.format('A', 1))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('{} is {}'.format('A', 1))",
+   "question": "다음 코드의 출력 결과는?\nprint('{} is {}'.format('A', 1))",
    "choices": [
     "{} is {}",
     "A is {}",
@@ -456,7 +456,7 @@
   "command": "print(f'{7:03d}')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(f'{7:03d}')",
+   "question": "다음 코드의 출력 결과는?\nprint(f'{7:03d}')",
    "choices": [
     "070",
     "700",
@@ -474,7 +474,7 @@
   "command": "print(str(1) + str(2))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(str(1) + str(2))",
+   "question": "다음 코드의 출력 결과는?\nprint(str(1) + str(2))",
    "choices": [
     "3",
     "오류",
@@ -492,7 +492,7 @@
   "command": "print('a' 'b')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('a' 'b')",
+   "question": "다음 코드의 출력 결과는?\nprint('a' 'b')",
    "choices": [
     "오류",
     "a b",
@@ -510,7 +510,7 @@
   "command": "print(f'{10:b}')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(f'{10:b}')",
+   "question": "다음 코드의 출력 결과는?\nprint(f'{10:b}')",
    "choices": [
     "A",
     "12",
@@ -528,7 +528,7 @@
   "command": "print(*'abc', sep='-')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(*'abc', sep='-')",
+   "question": "다음 코드의 출력 결과는?\nprint(*'abc', sep='-')",
    "choices": [
     "a b c",
     "-a-b-c",
@@ -546,7 +546,7 @@
   "command": "x = 10",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 10; print(x)",
+   "question": "다음 코드의 출력 결과는?\nx = 10; print(x)",
    "choices": [
     "x",
     "'10'",
@@ -564,7 +564,7 @@
   "command": "name = 'Kim'",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? name = 'Kim'; print(name)",
+   "question": "다음 코드의 출력 결과는?\nname = 'Kim'; print(name)",
    "choices": [
     "오류",
     "name",
@@ -582,7 +582,7 @@
   "command": "a = b = 5",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = b = 5; print(a + b)",
+   "question": "다음 코드의 출력 결과는?\na = b = 5; print(a + b)",
    "choices": [
     "55",
     "오류",
@@ -600,7 +600,7 @@
   "command": "count = 0",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? count = 0; count = count + 1; print(count)",
+   "question": "다음 코드의 출력 결과는?\ncount = 0; count = count + 1; print(count)",
    "choices": [
     "2",
     "1",
@@ -618,7 +618,7 @@
   "command": "x, y = 1, 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x, y = 1, 2; print(y)",
+   "question": "다음 코드의 출력 결과는?\nx, y = 1, 2; print(y)",
    "choices": [
     "(1, 2)",
     "12",
@@ -672,7 +672,7 @@
   "command": "price = 1200",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? price = 1200; price = 1500; print(price)",
+   "question": "다음 코드의 출력 결과는?\nprice = 1200; price = 1500; print(price)",
    "choices": [
     "1500",
     "2700",
@@ -690,7 +690,7 @@
   "command": "pi = 3.14",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? pi = 3.14; print(type(pi))",
+   "question": "다음 코드의 출력 결과는?\npi = 3.14; print(type(pi))",
    "choices": [
     "<class 'int'>",
     "<class 'str'>",
@@ -708,7 +708,7 @@
   "command": "b = a",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = 1; b = a; a = 2; print(b)",
+   "question": "다음 코드의 출력 결과는?\na = 1; b = a; a = 2; print(b)",
    "choices": [
     "2",
     "오류",
@@ -726,7 +726,7 @@
   "command": "x = x + 1",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 5; x = x + 1; print(x)",
+   "question": "다음 코드의 출력 결과는?\nx = 5; x = x + 1; print(x)",
    "choices": [
     "x + 1",
     "6",
@@ -744,7 +744,7 @@
   "command": "x += 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 5; x += 2; print(x)",
+   "question": "다음 코드의 출력 결과는?\nx = 5; x += 2; print(x)",
    "choices": [
     "7",
     "52",
@@ -762,7 +762,7 @@
   "command": "a, b = b, a",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a, b = 1, 2; a, b = b, a; print(a, b)",
+   "question": "다음 코드의 출력 결과는?\na, b = 1, 2; a, b = b, a; print(a, b)",
    "choices": [
     "1 1",
     "1 2",
@@ -798,7 +798,7 @@
   "command": "total = 10 + 5",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? total = 10 + 5; print(total)",
+   "question": "다음 코드의 출력 결과는?\ntotal = 10 + 5; print(total)",
    "choices": [
     "15",
     "10 + 5",
@@ -816,7 +816,7 @@
   "command": "x = y = 0",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = y = 0; y = 3; print(x, y)",
+   "question": "다음 코드의 출력 결과는?\nx = y = 0; y = 3; print(x, y)",
    "choices": [
     "3 3",
     "3 0",
@@ -834,7 +834,7 @@
   "command": "s = 'ab' * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? s = 'ab' * 2; print(s)",
+   "question": "다음 코드의 출력 결과는?\ns = 'ab' * 2; print(s)",
    "choices": [
     "ab2",
     "4",
@@ -870,7 +870,7 @@
   "command": "n = int('7')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? n = int('7'); print(n + 1)",
+   "question": "다음 코드의 출력 결과는?\nn = int('7'); print(n + 1)",
    "choices": [
     "71",
     "'8'",
@@ -888,7 +888,7 @@
   "command": "x = None",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = None; print(x)",
+   "question": "다음 코드의 출력 결과는?\nx = None; print(x)",
    "choices": [
     "null",
     "0",
@@ -906,7 +906,7 @@
   "command": "a = b = c = 1",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = b = c = 1; b = 2; print(a + b + c)",
+   "question": "다음 코드의 출력 결과는?\na = b = c = 1; b = 2; print(a + b + c)",
    "choices": [
     "4",
     "5",
@@ -924,7 +924,7 @@
   "command": "x, *y = 1, 2, 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x, *y = 1, 2, 3; print(y)",
+   "question": "다음 코드의 출력 결과는?\nx, *y = 1, 2, 3; print(y)",
    "choices": [
     "[1, 2]",
     "[2, 3]",
@@ -942,7 +942,7 @@
   "command": "x = (y := 3) + 1",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = (y := 3) + 1; print(x, y)",
+   "question": "다음 코드의 출력 결과는?\nx = (y := 3) + 1; print(x, y)",
    "choices": [
     "3 4",
     "3 3",
@@ -960,7 +960,7 @@
   "command": "n //= 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? n = 10; n //= 3; print(n)",
+   "question": "다음 코드의 출력 결과는?\nn = 10; n //= 3; print(n)",
    "choices": [
     "1",
     "3.33",
@@ -978,7 +978,7 @@
   "command": "b = a; b.append(2)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = [1]; b = a; b.append(2); print(a)",
+   "question": "다음 코드의 출력 결과는?\na = [1]; b = a; b.append(2); print(a)",
    "choices": [
     "[1]",
     "[1, 2]",
@@ -996,7 +996,7 @@
   "command": "x **= 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 5; x **= 2; print(x)",
+   "question": "다음 코드의 출력 결과는?\nx = 5; x **= 2; print(x)",
    "choices": [
     "25",
     "52",
@@ -1014,7 +1014,7 @@
   "command": "a *= 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = 'x'; a *= 3; print(a)",
+   "question": "다음 코드의 출력 결과는?\na = 'x'; a *= 3; print(a)",
    "choices": [
     "x x x",
     "x3",
@@ -1032,7 +1032,7 @@
   "command": "first, second = 'ab'",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? first, second = 'ab'; print(second)",
+   "question": "다음 코드의 출력 결과는?\nfirst, second = 'ab'; print(second)",
    "choices": [
     "b",
     "ab",
@@ -1050,7 +1050,7 @@
   "command": "b = a + 1",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = 1; b = a + 1; a = 5; print(b)",
+   "question": "다음 코드의 출력 결과는?\na = 1; b = a + 1; a = 5; print(b)",
    "choices": [
     "6",
     "2",
@@ -1068,7 +1068,7 @@
   "command": "v = 3 if True else 4",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? v = 3 if True else 4; print(v)",
+   "question": "다음 코드의 출력 결과는?\nv = 3 if True else 4; print(v)",
    "choices": [
     "3",
     "True",
@@ -1104,7 +1104,7 @@
   "command": "name = input()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? name = input(); print(name) (입력: Kim)",
+   "question": "다음 코드의 출력 결과는? (입력: Kim)\nname = input(); print(name)",
    "choices": [
     "name",
     "오류",
@@ -1122,7 +1122,7 @@
   "command": "age = input()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? age = input(); print(type(age)) (입력: 15)",
+   "question": "다음 코드의 출력 결과는? (입력: 15)\nage = input(); print(type(age))",
    "choices": [
     "15",
     "<class 'int'>",
@@ -1140,7 +1140,7 @@
   "command": "n = int(input())",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? n = int(input()); print(n + 1) (입력: 4)",
+   "question": "다음 코드의 출력 결과는? (입력: 4)\nn = int(input()); print(n + 1)",
    "choices": [
     "41",
     "5",
@@ -1176,7 +1176,7 @@
   "command": "x = input()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = input(); print(x * 2) (입력: 3)",
+   "question": "다음 코드의 출력 결과는? (입력: 3)\nx = input(); print(x * 2)",
    "choices": [
     "6",
     "33",
@@ -1194,7 +1194,7 @@
   "command": "a = int(input())",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = int(input()); print(a * 2) (입력: 4)",
+   "question": "다음 코드의 출력 결과는? (입력: 4)\na = int(input()); print(a * 2)",
    "choices": [
     "44",
     "8",
@@ -1230,7 +1230,7 @@
   "command": "num = float(input())",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? num = float(input()); print(num) (입력: 2)",
+   "question": "다음 코드의 출력 결과는? (입력: 2)\nnum = float(input()); print(num)",
    "choices": [
     "2.0",
     "오류",
@@ -1266,7 +1266,7 @@
   "command": "a, b = input().split()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a, b = input().split(); print(b) (입력: x y)",
+   "question": "다음 코드의 출력 결과는? (입력: x y)\na, b = input().split(); print(b)",
    "choices": [
     "x y",
     "x",
@@ -1284,7 +1284,7 @@
   "command": "n = int(input()) * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? n = int(input()) * 2; print(n) (입력: 3)",
+   "question": "다음 코드의 출력 결과는? (입력: 3)\nn = int(input()) * 2; print(n)",
    "choices": [
     "33",
     "3",
@@ -1302,7 +1302,7 @@
   "command": "s = input().upper()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? s = input().upper(); print(s) (입력: abc)",
+   "question": "다음 코드의 출력 결과는? (입력: abc)\ns = input().upper(); print(s)",
    "choices": [
     "오류",
     "ABC",
@@ -1338,7 +1338,7 @@
   "command": "x = input().strip()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = input().strip(); print(len(x)) (입력:   hi )",
+   "question": "다음 코드의 출력 결과는? (입력:   hi )\nx = input().strip(); print(len(x))",
    "choices": [
     "2",
     "5",
@@ -1356,7 +1356,7 @@
   "command": "a = int(input()) + int(input())",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = int(input()) + int(input()); print(a) (입력: 2 ⏎ 3)",
+   "question": "다음 코드의 출력 결과는? (입력: 2 ⏎ 3)\na = int(input()) + int(input()); print(a)",
    "choices": [
     "6",
     "23",
@@ -1392,7 +1392,7 @@
   "command": "nums = input().split()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = input().split(); print(len(nums)) (입력: 1 2 3)",
+   "question": "다음 코드의 출력 결과는? (입력: 1 2 3)\nnums = input().split(); print(len(nums))",
    "choices": [
     "3",
     "123",
@@ -1428,7 +1428,7 @@
   "command": "p = float(input())",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? p = float(input()); print(p * 2) (입력: 1.5)",
+   "question": "다음 코드의 출력 결과는? (입력: 1.5)\np = float(input()); print(p * 2)",
    "choices": [
     "1.51.5",
     "3.0",
@@ -1446,7 +1446,7 @@
   "command": "x, y = map(int, input().split())",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x, y = map(int, input().split()); print(x + y) (입력: 3 4)",
+   "question": "다음 코드의 출력 결과는? (입력: 3 4)\nx, y = map(int, input().split()); print(x + y)",
    "choices": [
     "3 4",
     "7",
@@ -1464,7 +1464,7 @@
   "command": "nums = list(map(int, input().split()))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = list(map(int, input().split())); print(sum(nums)) (입력: 1 2 3)",
+   "question": "다음 코드의 출력 결과는? (입력: 1 2 3)\nnums = list(map(int, input().split())); print(sum(nums))",
    "choices": [
     "123",
     "3",
@@ -1500,7 +1500,7 @@
   "command": "a = input().split(',')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = input().split(','); print(a) (입력: a,b,c)",
+   "question": "다음 코드의 출력 결과는? (입력: a,b,c)\na = input().split(','); print(a)",
    "choices": [
     "a,b,c",
     "['a', 'b', 'c']",
@@ -1518,7 +1518,7 @@
   "command": "t = input() * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = input() * 2; print(t) (입력: ab)",
+   "question": "다음 코드의 출력 결과는? (입력: ab)\nt = input() * 2; print(t)",
    "choices": [
     "abb",
     "ab2",
@@ -1536,7 +1536,7 @@
   "command": "k = int(input()) // 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? k = int(input()) // 2; print(k) (입력: 7)",
+   "question": "다음 코드의 출력 결과는? (입력: 7)\nk = int(input()) // 2; print(k)",
    "choices": [
     "4",
     "3",
@@ -1554,7 +1554,7 @@
   "command": "s = input()[::-1]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? s = input()[::-1]; print(s) (입력: abc)",
+   "question": "다음 코드의 출력 결과는? (입력: abc)\ns = input()[::-1]; print(s)",
    "choices": [
     "cba",
     "abc",
@@ -1572,7 +1572,7 @@
   "command": "w = input().split()[0]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? w = input().split()[0]; print(w) (입력: hi there)",
+   "question": "다음 코드의 출력 결과는? (입력: hi there)\nw = input().split()[0]; print(w)",
    "choices": [
     "h",
     "hi",
@@ -1590,7 +1590,7 @@
   "command": "c = input().count('a')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? c = input().count('a'); print(c) (입력: banana)",
+   "question": "다음 코드의 출력 결과는? (입력: banana)\nc = input().count('a'); print(c)",
    "choices": [
     "2",
     "6",
@@ -1608,7 +1608,7 @@
   "command": "m = int(input()) % 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? m = int(input()) % 2; print(m) (입력: 9)",
+   "question": "다음 코드의 출력 결과는? (입력: 9)\nm = int(input()) % 2; print(m)",
    "choices": [
     "9",
     "0",
@@ -1626,7 +1626,7 @@
   "command": "r = 7 % 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 7 % 3; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 7 % 3; print(r)",
    "choices": [
     "0",
     "2",
@@ -1644,7 +1644,7 @@
   "command": "r = 7 // 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 7 // 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 7 // 2; print(r)",
    "choices": [
     "4",
     "3.5",
@@ -1662,7 +1662,7 @@
   "command": "r = 7 / 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 7 / 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 7 / 2; print(r)",
    "choices": [
     "4",
     "3",
@@ -1680,7 +1680,7 @@
   "command": "r = 2 ** 4",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 2 ** 4; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 2 ** 4; print(r)",
    "choices": [
     "24",
     "8",
@@ -1698,7 +1698,7 @@
   "command": "ok = 3 > 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? ok = 3 > 2; print(ok)",
+   "question": "다음 코드의 출력 결과는?\nok = 3 > 2; print(ok)",
    "choices": [
     "3",
     "False",
@@ -1734,7 +1734,7 @@
   "command": "r = 10 - 4 * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 10 - 4 * 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 10 - 4 * 2; print(r)",
    "choices": [
     "2",
     "6",
@@ -1752,7 +1752,7 @@
   "command": "r = (10 - 4) * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = (10 - 4) * 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = (10 - 4) * 2; print(r)",
    "choices": [
     "12",
     "6",
@@ -1770,7 +1770,7 @@
   "command": "ok = 5 != 5",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? ok = 5 != 5; print(ok)",
+   "question": "다음 코드의 출력 결과는?\nok = 5 != 5; print(ok)",
    "choices": [
     "False",
     "오류",
@@ -1806,7 +1806,7 @@
   "command": "r = 17 % 5",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 17 % 5; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 17 % 5; print(r)",
    "choices": [
     "3",
     "3.4",
@@ -1824,7 +1824,7 @@
   "command": "r = 2 + 3 * 4 ** 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 2 + 3 * 4 ** 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 2 + 3 * 4 ** 2; print(r)",
    "choices": [
     "80",
     "50",
@@ -1842,7 +1842,7 @@
   "command": "ok = 1 < 2 < 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? ok = 1 < 2 < 3; print(ok)",
+   "question": "다음 코드의 출력 결과는?\nok = 1 < 2 < 3; print(ok)",
    "choices": [
     "False",
     "1",
@@ -1860,7 +1860,7 @@
   "command": "ok = not True",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? ok = not True; print(ok)",
+   "question": "다음 코드의 출력 결과는?\nok = not True; print(ok)",
    "choices": [
     "False",
     "None",
@@ -1878,7 +1878,7 @@
   "command": "ok = True and False",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? ok = True and False; print(ok)",
+   "question": "다음 코드의 출력 결과는?\nok = True and False; print(ok)",
    "choices": [
     "False",
     "1",
@@ -1896,7 +1896,7 @@
   "command": "ok = 0 or 5",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? ok = 0 or 5; print(ok)",
+   "question": "다음 코드의 출력 결과는?\nok = 0 or 5; print(ok)",
    "choices": [
     "False",
     "True",
@@ -1914,7 +1914,7 @@
   "command": "x -= 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 5; x -= 2; print(x)",
+   "question": "다음 코드의 출력 결과는?\nx = 5; x -= 2; print(x)",
    "choices": [
     "-2",
     "5",
@@ -1932,7 +1932,7 @@
   "command": "r = -7 // 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = -7 // 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = -7 // 2; print(r)",
    "choices": [
     "-3",
     "-4",
@@ -1950,7 +1950,7 @@
   "command": "ok = 'a' in 'cat'",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? ok = 'a' in 'cat'; print(ok)",
+   "question": "다음 코드의 출력 결과는?\nok = 'a' in 'cat'; print(ok)",
    "choices": [
     "1",
     "True",
@@ -1968,7 +1968,7 @@
   "command": "r = 5 // 2 * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 5 // 2 * 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 5 // 2 * 2; print(r)",
    "choices": [
     "0",
     "5",
@@ -1986,7 +1986,7 @@
   "command": "r = 2 ** 3 ** 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 2 ** 3 ** 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 2 ** 3 ** 2; print(r)",
    "choices": [
     "64",
     "81",
@@ -2004,7 +2004,7 @@
   "command": "r = 10 % 3 ** 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 10 % 3 ** 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 10 % 3 ** 2; print(r)",
    "choices": [
     "9",
     "1",
@@ -2022,7 +2022,7 @@
   "command": "r = not 0 and 5",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = not 0 and 5; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = not 0 and 5; print(r)",
    "choices": [
     "5",
     "False",
@@ -2040,7 +2040,7 @@
   "command": "r = 1 if 5 % 2 else 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 1 if 5 % 2 else 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 1 if 5 % 2 else 2; print(r)",
    "choices": [
     "1",
     "2",
@@ -2058,7 +2058,7 @@
   "command": "r = 7 & 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 7 & 3; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 7 & 3; print(r)",
    "choices": [
     "1",
     "7",
@@ -2076,7 +2076,7 @@
   "command": "r = 5 | 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 5 | 2; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 5 | 2; print(r)",
    "choices": [
     "10",
     "3",
@@ -2094,7 +2094,7 @@
   "command": "r = 6 ^ 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 6 ^ 3; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 6 ^ 3; print(r)",
    "choices": [
     "5",
     "18",
@@ -2112,7 +2112,7 @@
   "command": "r = 1 << 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 1 << 3; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 1 << 3; print(r)",
    "choices": [
     "1",
     "3",
@@ -2130,7 +2130,7 @@
   "command": "r = 'ab' * 2 + 'c'",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = 'ab' * 2 + 'c'; print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = 'ab' * 2 + 'c'; print(r)",
    "choices": [
     "abcc",
     "ababc",
@@ -2148,7 +2148,7 @@
   "command": "r = (1, 2) < (1, 3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? r = (1, 2) < (1, 3); print(r)",
+   "question": "다음 코드의 출력 결과는?\nr = (1, 2) < (1, 3); print(r)",
    "choices": [
     "False",
     "오류",
@@ -2166,7 +2166,7 @@
   "command": "type(5)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type(5))",
+   "question": "다음 코드의 출력 결과는?\nprint(type(5))",
    "choices": [
     "<class 'str'>",
     "<class 'float'>",
@@ -2184,7 +2184,7 @@
   "command": "type(3.14)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type(3.14))",
+   "question": "다음 코드의 출력 결과는?\nprint(type(3.14))",
    "choices": [
     "<class 'float'>",
     "<class 'int'>",
@@ -2202,7 +2202,7 @@
   "command": "type('a')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type('a'))",
+   "question": "다음 코드의 출력 결과는?\nprint(type('a'))",
    "choices": [
     "<class 'int'>",
     "<class 'string'>",
@@ -2220,7 +2220,7 @@
   "command": "type(True)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type(True))",
+   "question": "다음 코드의 출력 결과는?\nprint(type(True))",
    "choices": [
     "<class 'str'>",
     "<class 'boolean'>",
@@ -2238,7 +2238,7 @@
   "command": "int('12')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(int('12') + 1)",
+   "question": "다음 코드의 출력 결과는?\nprint(int('12') + 1)",
    "choices": [
     "'13'",
     "13",
@@ -2256,7 +2256,7 @@
   "command": "str(12)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(str(12) + '3')",
+   "question": "다음 코드의 출력 결과는?\nprint(str(12) + '3')",
    "choices": [
     "12 3",
     "123",
@@ -2274,7 +2274,7 @@
   "command": "float(3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(float(3))",
+   "question": "다음 코드의 출력 결과는?\nprint(float(3))",
    "choices": [
     "오류",
     "3.00",
@@ -2292,7 +2292,7 @@
   "command": "int(3.9)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(int(3.9))",
+   "question": "다음 코드의 출력 결과는?\nprint(int(3.9))",
    "choices": [
     "3.9",
     "3",
@@ -2310,7 +2310,7 @@
   "command": "bool(0)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(bool(0))",
+   "question": "다음 코드의 출력 결과는?\nprint(bool(0))",
    "choices": [
     "True",
     "None",
@@ -2346,7 +2346,7 @@
   "command": "type(None)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type(None))",
+   "question": "다음 코드의 출력 결과는?\nprint(type(None))",
    "choices": [
     "<class 'None'>",
     "None",
@@ -2364,7 +2364,7 @@
   "command": "int('3') + 4",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(int('3') + 4)",
+   "question": "다음 코드의 출력 결과는?\nprint(int('3') + 4)",
    "choices": [
     "오류",
     "7",
@@ -2382,7 +2382,7 @@
   "command": "'3' + str(4)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('3' + str(4))",
+   "question": "다음 코드의 출력 결과는?\nprint('3' + str(4))",
    "choices": [
     "7",
     "34",
@@ -2400,7 +2400,7 @@
   "command": "round(2.5)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(round(2.5))",
+   "question": "다음 코드의 출력 결과는?\nprint(round(2.5))",
    "choices": [
     "2.5",
     "2.0",
@@ -2418,7 +2418,7 @@
   "command": "isinstance(5, int)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(isinstance(5, int))",
+   "question": "다음 코드의 출력 결과는?\nprint(isinstance(5, int))",
    "choices": [
     "False",
     "오류",
@@ -2436,7 +2436,7 @@
   "command": "float('1.5') + 1",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(float('1.5') + 1)",
+   "question": "다음 코드의 출력 결과는?\nprint(float('1.5') + 1)",
    "choices": [
     "2.5",
     "1.51",
@@ -2472,7 +2472,7 @@
   "command": "bool('')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(bool(''))",
+   "question": "다음 코드의 출력 결과는?\nprint(bool(''))",
    "choices": [
     "오류",
     "''",
@@ -2490,7 +2490,7 @@
   "command": "3 + 2.0",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(3 + 2.0)",
+   "question": "다음 코드의 출력 결과는?\nprint(3 + 2.0)",
    "choices": [
     "오류",
     "32.0",
@@ -2508,7 +2508,7 @@
   "command": "10 / 5",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(10 / 5)",
+   "question": "다음 코드의 출력 결과는?\nprint(10 / 5)",
    "choices": [
     "2",
     "2.5",
@@ -2526,7 +2526,7 @@
   "command": "type(1 + 1.0)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type(1 + 1.0))",
+   "question": "다음 코드의 출력 결과는?\nprint(type(1 + 1.0))",
    "choices": [
     "<class 'int'>",
     "<class 'bool'>",
@@ -2544,7 +2544,7 @@
   "command": "type(10 // 3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type(10 // 3))",
+   "question": "다음 코드의 출력 결과는?\nprint(type(10 // 3))",
    "choices": [
     "<class 'float'>",
     "<class 'str'>",
@@ -2562,7 +2562,7 @@
   "command": "type(10 / 5)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type(10 / 5))",
+   "question": "다음 코드의 출력 결과는?\nprint(type(10 / 5))",
    "choices": [
     "<class 'int'>",
     "<class 'float'>",
@@ -2580,7 +2580,7 @@
   "command": "int(True) + int(True)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(int(True) + int(True))",
+   "question": "다음 코드의 출력 결과는?\nprint(int(True) + int(True))",
    "choices": [
     "2",
     "TrueTrue",
@@ -2598,7 +2598,7 @@
   "command": "bool([])",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(bool([]))",
+   "question": "다음 코드의 출력 결과는?\nprint(bool([]))",
    "choices": [
     "False",
     "[]",
@@ -2616,7 +2616,7 @@
   "command": "str(None)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(str(None) + '!')",
+   "question": "다음 코드의 출력 결과는?\nprint(str(None) + '!')",
    "choices": [
     "none!",
     "오류",
@@ -2634,7 +2634,7 @@
   "command": "int(float('2.9'))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(int(float('2.9')))",
+   "question": "다음 코드의 출력 결과는?\nprint(int(float('2.9')))",
    "choices": [
     "오류",
     "2.9",
@@ -2652,7 +2652,7 @@
   "command": "float('inf') > 10 ** 9",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(float('inf') > 10 ** 9)",
+   "question": "다음 코드의 출력 결과는?\nprint(float('inf') > 10 ** 9)",
    "choices": [
     "True",
     "False",
@@ -2670,7 +2670,7 @@
   "command": "type([]) == list",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(type([]) == list)",
+   "question": "다음 코드의 출력 결과는?\nprint(type([]) == list)",
    "choices": [
     "False",
     "list",
@@ -2688,7 +2688,7 @@
   "command": "'5' * 3",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print('5' * 3)",
+   "question": "다음 코드의 출력 결과는?\nprint('5' * 3)",
    "choices": [
     "15",
     "555",
@@ -2706,7 +2706,7 @@
   "command": "nums = [1, 2, 3]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [1, 2, 3]; print(nums[0])",
+   "question": "다음 코드의 출력 결과는?\nnums = [1, 2, 3]; print(nums[0])",
    "choices": [
     "1",
     "2",
@@ -2725,7 +2725,7 @@
   "command": "nums.append(4)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [1, 2, 3]; nums.append(4); print(nums)",
+   "question": "다음 코드의 출력 결과는?\nnums = [1, 2, 3]; nums.append(4); print(nums)",
    "choices": [
     "[4, 1, 2, 3]",
     "[4]",
@@ -2744,7 +2744,7 @@
   "command": "len(nums)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [5, 6, 7]; print(len(nums))",
+   "question": "다음 코드의 출력 결과는?\nnums = [5, 6, 7]; print(len(nums))",
    "choices": [
     "2",
     "3",
@@ -2763,7 +2763,7 @@
   "command": "nums[-1]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [5, 6, 7]; print(nums[-1])",
+   "question": "다음 코드의 출력 결과는?\nnums = [5, 6, 7]; print(nums[-1])",
    "choices": [
     "7",
     "6",
@@ -2782,7 +2782,7 @@
   "command": "nums.pop()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [5, 6, 7]; nums.pop(); print(nums)",
+   "question": "다음 코드의 출력 결과는?\nnums = [5, 6, 7]; nums.pop(); print(nums)",
    "choices": [
     "[6, 7]",
     "[7]",
@@ -2801,7 +2801,7 @@
   "command": "t = (1, 2, 3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (1, 2, 3); print(t[1])",
+   "question": "다음 코드의 출력 결과는?\nt = (1, 2, 3); print(t[1])",
    "choices": [
     "2",
     "1",
@@ -2839,7 +2839,7 @@
   "command": "len(t)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (4, 5, 6); print(len(t))",
+   "question": "다음 코드의 출력 결과는?\nt = (4, 5, 6); print(len(t))",
    "choices": [
     "2",
     "15",
@@ -2858,7 +2858,7 @@
   "command": "a, b = (1, 2)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a, b = (1, 2); print(a + b)",
+   "question": "다음 코드의 출력 결과는?\na, b = (1, 2); print(a + b)",
    "choices": [
     "오류",
     "3",
@@ -2896,7 +2896,7 @@
   "command": "d = {'a': 1}",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1}; print(d['a'])",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1}; print(d['a'])",
    "choices": [
     "{'a': 1}",
     "a",
@@ -2915,7 +2915,7 @@
   "command": "d['b'] = 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1}; d['b'] = 2; print(d)",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1}; d['b'] = 2; print(d)",
    "choices": [
     "{'a': 1}",
     "오류",
@@ -2934,7 +2934,7 @@
   "command": "len(d)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1, 'b': 2}; print(len(d))",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1, 'b': 2}; print(len(d))",
    "choices": [
     "1",
     "2",
@@ -2953,7 +2953,7 @@
   "command": "d.keys()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1, 'b': 2}; print(list(d.keys()))",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1, 'b': 2}; print(list(d.keys()))",
    "choices": [
     "[1, 2]",
     "('a', 'b')",
@@ -2972,7 +2972,7 @@
   "command": "d.get('z', 0)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1}; print(d.get('z', 0))",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1}; print(d.get('z', 0))",
    "choices": [
     "'z'",
     "0",
@@ -2991,7 +2991,7 @@
   "command": "nums[1:3]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [0, 1, 2, 3, 4]; print(nums[1:3])",
+   "question": "다음 코드의 출력 결과는?\nnums = [0, 1, 2, 3, 4]; print(nums[1:3])",
    "choices": [
     "[0, 1, 2]",
     "[2, 3]",
@@ -3010,7 +3010,7 @@
   "command": "nums.sort()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [3, 1, 2]; nums.sort(); print(nums)",
+   "question": "다음 코드의 출력 결과는?\nnums = [3, 1, 2]; nums.sort(); print(nums)",
    "choices": [
     "[1, 2, 3]",
     "[3, 2, 1]",
@@ -3029,7 +3029,7 @@
   "command": "nums.insert(0, 9)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [1, 2]; nums.insert(0, 9); print(nums)",
+   "question": "다음 코드의 출력 결과는?\nnums = [1, 2]; nums.insert(0, 9); print(nums)",
    "choices": [
     "[1, 2, 9]",
     "[1, 9, 2]",
@@ -3048,7 +3048,7 @@
   "command": "nums.index(3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [5, 3, 8]; print(nums.index(3))",
+   "question": "다음 코드의 출력 결과는?\nnums = [5, 3, 8]; print(nums.index(3))",
    "choices": [
     "2",
     "0",
@@ -3067,7 +3067,7 @@
   "command": "[1, 2] + [3]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print([1, 2] + [3])",
+   "question": "다음 코드의 출력 결과는?\nprint([1, 2] + [3])",
    "choices": [
     "[6]",
     "[1, 2, [3]]",
@@ -3086,7 +3086,7 @@
   "command": "t.count(1)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (1, 2, 1); print(t.count(1))",
+   "question": "다음 코드의 출력 결과는?\nt = (1, 2, 1); print(t.count(1))",
    "choices": [
     "3",
     "1",
@@ -3105,7 +3105,7 @@
   "command": "t + (3,)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (1, 2); print(t + (3,))",
+   "question": "다음 코드의 출력 결과는?\nt = (1, 2); print(t + (3,))",
    "choices": [
     "오류",
     "[1, 2, 3]",
@@ -3124,7 +3124,7 @@
   "command": "x, *y = t",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (1, 2, 3); x, *y = t; print(y)",
+   "question": "다음 코드의 출력 결과는?\nt = (1, 2, 3); x, *y = t; print(y)",
    "choices": [
     "3",
     "(2, 3)",
@@ -3143,7 +3143,7 @@
   "command": "t[1:]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (1, 2, 3); print(t[1:])",
+   "question": "다음 코드의 출력 결과는?\nt = (1, 2, 3); print(t[1:])",
    "choices": [
     "2",
     "(1, 2)",
@@ -3162,7 +3162,7 @@
   "command": "list(t)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (1, 2); print(list(t))",
+   "question": "다음 코드의 출력 결과는?\nt = (1, 2); print(list(t))",
    "choices": [
     "12",
     "{1, 2}",
@@ -3181,7 +3181,7 @@
   "command": "d.items()",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1}; print(list(d.items()))",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1}; print(list(d.items()))",
    "choices": [
     "{'a': 1}",
     "[('a', 1)]",
@@ -3200,7 +3200,7 @@
   "command": "del d['a']",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1, 'b': 2}; del d['a']; print(d)",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1, 'b': 2}; del d['a']; print(d)",
    "choices": [
     "오류",
     "{'a': 1}",
@@ -3219,7 +3219,7 @@
   "command": "'a' in d",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1}; print('a' in d, 1 in d)",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1}; print('a' in d, 1 in d)",
    "choices": [
     "False True",
     "True False",
@@ -3238,7 +3238,7 @@
   "command": "d.pop('a')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1, 'b': 2}; print(d.pop('a'))",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1, 'b': 2}; print(d.pop('a'))",
    "choices": [
     "None",
     "a",
@@ -3257,7 +3257,7 @@
   "command": "d.update({'c': 3})",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 1}; d.update({'c': 3}); print(d)",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 1}; d.update({'c': 3}); print(d)",
    "choices": [
     "{'a': 1}",
     "{'a': 1, 'c': 3}",
@@ -3276,7 +3276,7 @@
   "command": "[x * 2 for x in nums]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [1, 2, 3]; print([x * 2 for x in nums])",
+   "question": "다음 코드의 출력 결과는?\nnums = [1, 2, 3]; print([x * 2 for x in nums])",
    "choices": [
     "[1, 2, 3, 1, 2, 3]",
     "[2, 4, 6]",
@@ -3295,7 +3295,7 @@
   "command": "nums[::-1]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [1, 2, 3]; print(nums[::-1])",
+   "question": "다음 코드의 출력 결과는?\nnums = [1, 2, 3]; print(nums[::-1])",
    "choices": [
     "[3, 2]",
     "[1, 2, 3]",
@@ -3314,7 +3314,7 @@
   "command": "[x for x in nums if x > 1]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [1, 2, 3]; print([x for x in nums if x > 1])",
+   "question": "다음 코드의 출력 결과는?\nnums = [1, 2, 3]; print([x for x in nums if x > 1])",
    "choices": [
     "[1, 2, 3]",
     "[1]",
@@ -3333,7 +3333,7 @@
   "command": "a = [[0] * 2] * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a = [[0] * 2] * 2; a[0][0] = 1; print(a)",
+   "question": "다음 코드의 출력 결과는?\na = [[0] * 2] * 2; a[0][0] = 1; print(a)",
    "choices": [
     "[[1, 0], [1, 0]]",
     "[[1, 0], [0, 0]]",
@@ -3352,7 +3352,7 @@
   "command": "sorted(nums, reverse=True)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? nums = [2, 3, 1]; print(sorted(nums, reverse=True))",
+   "question": "다음 코드의 출력 결과는?\nnums = [2, 3, 1]; print(sorted(nums, reverse=True))",
    "choices": [
     "[3, 2, 1]",
     "[2, 3, 1]",
@@ -3371,7 +3371,7 @@
   "command": "a, (b, c) = 1, (2, 3)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a, (b, c) = 1, (2, 3); print(c)",
+   "question": "다음 코드의 출력 결과는?\na, (b, c) = 1, (2, 3); print(c)",
    "choices": [
     "3",
     "(2, 3)",
@@ -3390,7 +3390,7 @@
   "command": "t = ((1, 2), (3, 4))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = ((1, 2), (3, 4)); print(t[1][0])",
+   "question": "다음 코드의 출력 결과는?\nt = ((1, 2), (3, 4)); print(t[1][0])",
    "choices": [
     "3",
     "1",
@@ -3409,7 +3409,7 @@
   "command": "tuple(sorted(t))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (3, 1, 2); print(tuple(sorted(t)))",
+   "question": "다음 코드의 출력 결과는?\nt = (3, 1, 2); print(tuple(sorted(t)))",
    "choices": [
     "(1, 2, 3)",
     "(3, 1, 2)",
@@ -3428,7 +3428,7 @@
   "command": "t * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (1, 2); print(t * 2)",
+   "question": "다음 코드의 출력 결과는?\nt = (1, 2); print(t * 2)",
    "choices": [
     "(1, 2, 2)",
     "(1, 2, 1, 2)",
@@ -3447,7 +3447,7 @@
   "command": "t[::2]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? t = (1, 2, 3, 4, 5); print(t[::2])",
+   "question": "다음 코드의 출력 결과는?\nt = (1, 2, 3, 4, 5); print(t[::2])",
    "choices": [
     "(1, 3, 5)",
     "(2, 4)",
@@ -3466,7 +3466,7 @@
   "command": "{k: v for k, v in zip('ab', [1, 2])}",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print({k: v for k, v in zip('ab', [1, 2])})",
+   "question": "다음 코드의 출력 결과는?\nprint({k: v for k, v in zip('ab', [1, 2])})",
    "choices": [
     "{1: 'a', 2: 'b'}",
     "[('a', 1), ('b', 2)]",
@@ -3485,7 +3485,7 @@
   "command": "d.setdefault('x', []).append(1)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {}; d.setdefault('x', []).append(1); print(d)",
+   "question": "다음 코드의 출력 결과는?\nd = {}; d.setdefault('x', []).append(1); print(d)",
    "choices": [
     "{'x': 1}",
     "{}",
@@ -3504,7 +3504,7 @@
   "command": "sorted(d.items(), key=lambda kv: kv[1])",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 2, 'b': 1}; print(sorted(d.items(), key=lambda kv: kv[1]))",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 2, 'b': 1}; print(sorted(d.items(), key=lambda kv: kv[1]))",
    "choices": [
     "[('a', 2), ('b', 1)]",
     "[('b', 1), ('a', 2)]",
@@ -3523,7 +3523,7 @@
   "command": "max(d, key=d.get)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? d = {'a': 2, 'b': 5}; print(max(d, key=d.get))",
+   "question": "다음 코드의 출력 결과는?\nd = {'a': 2, 'b': 5}; print(max(d, key=d.get))",
    "choices": [
     "5",
     "a",
@@ -3542,7 +3542,7 @@
   "command": "dict.fromkeys('ab', 0)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(dict.fromkeys('ab', 0))",
+   "question": "다음 코드의 출력 결과는?\nprint(dict.fromkeys('ab', 0))",
    "choices": [
     "{'a': 0, 'b': 0}",
     "{0: 'a'}",
@@ -3561,7 +3561,7 @@
   "command": "if x > 5:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 7\nif x > 5:\n    print('big')",
+   "question": "다음 코드의 출력 결과는?\nx = 7\nif x > 5:\n    print('big')",
    "choices": [
     "small",
     "big",
@@ -3579,7 +3579,7 @@
   "command": "else:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 3\nif x > 5:\n    print('big')\nelse:\n    print('small')",
+   "question": "다음 코드의 출력 결과는?\nx = 3\nif x > 5:\n    print('big')\nelse:\n    print('small')",
    "choices": [
     "오류",
     "small",
@@ -3597,7 +3597,7 @@
   "command": "elif x == 3:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 3\nif x > 5:\n    print('A')\nelif x == 3:\n    print('B')",
+   "question": "다음 코드의 출력 결과는?\nx = 3\nif x > 5:\n    print('A')\nelif x == 3:\n    print('B')",
    "choices": [
     "B",
     "A",
@@ -3633,7 +3633,7 @@
   "command": "if not done:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? done = False\nif not done:\n    print('go')",
+   "question": "다음 코드의 출력 결과는?\ndone = False\nif not done:\n    print('go')",
    "choices": [
     "go",
     "stop",
@@ -3651,7 +3651,7 @@
   "command": "if x % 2 == 0:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 4\nif x % 2 == 0:\n    print('even')\nelse:\n    print('odd')",
+   "question": "다음 코드의 출력 결과는?\nx = 4\nif x % 2 == 0:\n    print('even')\nelse:\n    print('odd')",
    "choices": [
     "odd",
     "오류",
@@ -3669,7 +3669,7 @@
   "command": "if name == 'Kim':",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? name = 'Lee'\nif name == 'Kim':\n    print('Hi Kim')\nelse:\n    print('Who?')",
+   "question": "다음 코드의 출력 결과는?\nname = 'Lee'\nif name == 'Kim':\n    print('Hi Kim')\nelse:\n    print('Who?')",
    "choices": [
     "Hi Kim",
     "오류",
@@ -3687,7 +3687,7 @@
   "command": "if x >= 10:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 10\nif x >= 10:\n    print('ok')",
+   "question": "다음 코드의 출력 결과는?\nx = 10\nif x >= 10:\n    print('ok')",
    "choices": [
     "no",
     "ok",
@@ -3705,7 +3705,7 @@
   "command": "if x != 0:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 0\nif x != 0:\n    print('nonzero')\nelse:\n    print('zero')",
+   "question": "다음 코드의 출력 결과는?\nx = 0\nif x != 0:\n    print('nonzero')\nelse:\n    print('zero')",
    "choices": [
     "nonzero",
     "0",
@@ -3741,7 +3741,7 @@
   "command": "if x > 0 and x < 10:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 5\nif x > 0 and x < 10:\n    print('in')\nelse:\n    print('out')",
+   "question": "다음 코드의 출력 결과는?\nx = 5\nif x > 0 and x < 10:\n    print('in')\nelse:\n    print('out')",
    "choices": [
     "5",
     "out",
@@ -3759,7 +3759,7 @@
   "command": "if x < 0 or x > 100:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 50\nif x < 0 or x > 100:\n    print('bad')\nelse:\n    print('good')",
+   "question": "다음 코드의 출력 결과는?\nx = 50\nif x < 0 or x > 100:\n    print('bad')\nelse:\n    print('good')",
    "choices": [
     "오류",
     "good",
@@ -3777,7 +3777,7 @@
   "command": "if x in [1, 2, 3]:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 2\nif x in [1, 2, 3]:\n    print('yes')\nelse:\n    print('no')",
+   "question": "다음 코드의 출력 결과는?\nx = 2\nif x in [1, 2, 3]:\n    print('yes')\nelse:\n    print('no')",
    "choices": [
     "오류",
     "yes",
@@ -3795,7 +3795,7 @@
   "command": "elif score >= 80:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? score = 85\nif score >= 90:\n    print('A')\nelif score >= 80:\n    print('B')\nelse:\n    print('C')",
+   "question": "다음 코드의 출력 결과는?\nscore = 85\nif score >= 90:\n    print('A')\nelif score >= 80:\n    print('B')\nelse:\n    print('C')",
    "choices": [
     "B",
     "A B",
@@ -3813,7 +3813,7 @@
   "command": "if x:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 0\nif x:\n    print('T')\nelse:\n    print('F')",
+   "question": "다음 코드의 출력 결과는?\nx = 0\nif x:\n    print('T')\nelse:\n    print('F')",
    "choices": [
     "T",
     "0",
@@ -3831,7 +3831,7 @@
   "command": "if not s:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? s = ''\nif not s:\n    print('empty')",
+   "question": "다음 코드의 출력 결과는?\ns = ''\nif not s:\n    print('empty')",
    "choices": [
     "empty",
     "not empty",
@@ -3849,7 +3849,7 @@
   "command": "if 1 < x < 5:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 3\nif 1 < x < 5:\n    print('mid')\nelse:\n    print('edge')",
+   "question": "다음 코드의 출력 결과는?\nx = 3\nif 1 < x < 5:\n    print('mid')\nelse:\n    print('edge')",
    "choices": [
     "edge",
     "오류",
@@ -3867,7 +3867,7 @@
   "command": "if a > b: print(a)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a, b = 2, 9\nif a > b: print(a)\nelse: print(b)",
+   "question": "다음 코드의 출력 결과는?\na, b = 2, 9\nif a > b: print(a)\nelse: print(b)",
    "choices": [
     "9",
     "a",
@@ -3903,7 +3903,7 @@
   "command": "if x > 5 and y > 5:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x, y = 6, 3\nif x > 5 and y > 5:\n    print('both')\nelif x > 5 or y > 5:\n    print('one')",
+   "question": "다음 코드의 출력 결과는?\nx, y = 6, 3\nif x > 5 and y > 5:\n    print('both')\nelif x > 5 or y > 5:\n    print('one')",
    "choices": [
     "아무것도 출력되지 않음",
     "one",
@@ -3921,7 +3921,7 @@
   "command": "if x > 5 and not y:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x, y = 7, 0\nif x > 5 and not y:\n    print('A')\nelse:\n    print('B')",
+   "question": "다음 코드의 출력 결과는?\nx, y = 7, 0\nif x > 5 and not y:\n    print('A')\nelse:\n    print('B')",
    "choices": [
     "B",
     "7",
@@ -3939,7 +3939,7 @@
   "command": "print('ok') if x else print('no')",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = []\nprint('ok') if x else print('no')",
+   "question": "다음 코드의 출력 결과는?\nx = []\nprint('ok') if x else print('no')",
    "choices": [
     "no",
     "오류",
@@ -3957,7 +3957,7 @@
   "command": "r = 'a' if x > 0 else 'b' if x < 0 else 'c'",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = -2\nr = 'a' if x > 0 else 'b' if x < 0 else 'c'\nprint(r)",
+   "question": "다음 코드의 출력 결과는?\nx = -2\nr = 'a' if x > 0 else 'b' if x < 0 else 'c'\nprint(r)",
    "choices": [
     "c",
     "오류",
@@ -3975,7 +3975,7 @@
   "command": "if x > 0:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 5\nif x > 0:\n    if x > 10:\n        print('A')\n    else:\n        print('B')",
+   "question": "다음 코드의 출력 결과는?\nx = 5\nif x > 0:\n    if x > 10:\n        print('A')\n    else:\n        print('B')",
    "choices": [
     "A B",
     "A",
@@ -3993,7 +3993,7 @@
   "command": "if x is None:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = None\nif x is None:\n    print('none')\nelse:\n    print('has')",
+   "question": "다음 코드의 출력 결과는?\nx = None\nif x is None:\n    print('none')\nelse:\n    print('has')",
    "choices": [
     "has",
     "오류",
@@ -4011,7 +4011,7 @@
   "command": "if (x := 5) > 3:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? if (x := 5) > 3:\n    print(x)",
+   "question": "다음 코드의 출력 결과는?\nif (x := 5) > 3:\n    print(x)",
    "choices": [
     "3",
     "오류",
@@ -4029,7 +4029,7 @@
   "command": "if not (a or b):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? a, b = 0, 0\nif not (a or b):\n    print('both false')",
+   "question": "다음 코드의 출력 결과는?\na, b = 0, 0\nif not (a or b):\n    print('both false')",
    "choices": [
     "both false",
     "a or b",
@@ -4047,7 +4047,7 @@
   "command": "if x % 3 == 0 and x % 5 == 0:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? x = 15\nif x % 3 == 0 and x % 5 == 0:\n    print('FizzBuzz')\nelif x % 3 == 0:\n    print('Fizz')",
+   "question": "다음 코드의 출력 결과는?\nx = 15\nif x % 3 == 0 and x % 5 == 0:\n    print('FizzBuzz')\nelif x % 3 == 0:\n    print('Fizz')",
    "choices": [
     "Fizz",
     "15",
@@ -4065,7 +4065,7 @@
   "command": "if any([0, 1, 0]):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? if any([0, 1, 0]):\n    print('yes')\nelse:\n    print('no')",
+   "question": "다음 코드의 출력 결과는?\nif any([0, 1, 0]):\n    print('yes')\nelse:\n    print('no')",
    "choices": [
     "yes",
     "1",
@@ -4083,7 +4083,7 @@
   "command": "if all([1, 0, 1]):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? if all([1, 0, 1]):\n    print('yes')\nelse:\n    print('no')",
+   "question": "다음 코드의 출력 결과는?\nif all([1, 0, 1]):\n    print('yes')\nelse:\n    print('no')",
    "choices": [
     "yes",
     "0",
@@ -4101,7 +4101,7 @@
   "command": "for i in range(3):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(3):\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(3):\n    print(i)",
    "choices": [
     "1 2",
     "0 1 2",
@@ -4119,7 +4119,7 @@
   "command": "for c in 'abc':",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for c in 'abc':\n    print(c)",
+   "question": "다음 코드의 출력 결과는?\nfor c in 'abc':\n    print(c)",
    "choices": [
     "abc",
     "a b c",
@@ -4137,7 +4137,7 @@
   "command": "while n > 0:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? n = 3\nwhile n > 0:\n    print(n)\n    n -= 1",
+   "question": "다음 코드의 출력 결과는?\nn = 3\nwhile n > 0:\n    print(n)\n    n -= 1",
    "choices": [
     "2 1 0",
     "3 2 1",
@@ -4155,7 +4155,7 @@
   "command": "break",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(5):\n    if i == 2:\n        break\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(5):\n    if i == 2:\n        break\n    print(i)",
    "choices": [
     "0 1 2 3 4",
     "0 1",
@@ -4173,7 +4173,7 @@
   "command": "continue",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(4):\n    if i == 2:\n        continue\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(4):\n    if i == 2:\n        continue\n    print(i)",
    "choices": [
     "1 3",
     "0 1 3",
@@ -4191,7 +4191,7 @@
   "command": "for i in range(1, 4):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(1, 4):\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(1, 4):\n    print(i)",
    "choices": [
     "2 3 4",
     "1 2 3",
@@ -4209,7 +4209,7 @@
   "command": "for i in range(2):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(2):\n    print('hi')",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(2):\n    print('hi')",
    "choices": [
     "hi hi",
     "hi",
@@ -4227,7 +4227,7 @@
   "command": "for i in [10, 20]:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in [10, 20]:\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in [10, 20]:\n    print(i)",
    "choices": [
     "10 20",
     "20 10",
@@ -4245,7 +4245,7 @@
   "command": "for i in range(0, 6, 2):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(0, 6, 2):\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(0, 6, 2):\n    print(i)",
    "choices": [
     "0 2 4 6",
     "0 1 2 3 4 5",
@@ -4281,7 +4281,7 @@
   "command": "for i in range(3, 0, -1):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(3, 0, -1):\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(3, 0, -1):\n    print(i)",
    "choices": [
     "3 2 1 0",
     "3 2 1",
@@ -4299,7 +4299,7 @@
   "command": "for i, c in enumerate('ab'):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i, c in enumerate('ab'):\n    print(i, c)",
+   "question": "다음 코드의 출력 결과는?\nfor i, c in enumerate('ab'):\n    print(i, c)",
    "choices": [
     "1 a 2 b",
     "0 a 1 b",
@@ -4317,7 +4317,7 @@
   "command": "total += i",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? total = 0\nfor i in range(4):\n    total += i\nprint(total)",
+   "question": "다음 코드의 출력 결과는?\ntotal = 0\nfor i in range(4):\n    total += i\nprint(total)",
    "choices": [
     "4",
     "10",
@@ -4335,7 +4335,7 @@
   "command": "for i in range(2): print(i)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(2): print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(2): print(i)",
    "choices": [
     "0 1",
     "0 1 2",
@@ -4353,7 +4353,7 @@
   "command": "while n < 3:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? n = 0\nwhile n < 3:\n    n += 1\nprint(n)",
+   "question": "다음 코드의 출력 결과는?\nn = 0\nwhile n < 3:\n    n += 1\nprint(n)",
    "choices": [
     "3",
     "2",
@@ -4371,7 +4371,7 @@
   "command": "for x in 'ab':",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for x in 'ab':\n    for y in '12':\n        print(x + y)",
+   "question": "다음 코드의 출력 결과는?\nfor x in 'ab':\n    for y in '12':\n        print(x + y)",
    "choices": [
     "a1 a2 b1 b2",
     "a1 b2",
@@ -4407,7 +4407,7 @@
   "command": "for i in range(10):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(10):\n    if i % 4 == 0:\n        print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(10):\n    if i % 4 == 0:\n        print(i)",
    "choices": [
     "0 4 8 10",
     "0 4",
@@ -4425,7 +4425,7 @@
   "command": "for i in reversed(range(3)):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in reversed(range(3)):\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in reversed(range(3)):\n    print(i)",
    "choices": [
     "2 1 0",
     "3 2 1",
@@ -4443,7 +4443,7 @@
   "command": "for k in {'a': 1, 'b': 2}:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for k in {'a': 1, 'b': 2}:\n    print(k)",
+   "question": "다음 코드의 출력 결과는?\nfor k in {'a': 1, 'b': 2}:\n    print(k)",
    "choices": [
     "a b",
     "('a', 1)",
@@ -4461,7 +4461,7 @@
   "command": "for i in range(3): print(i * 2)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(3): print(i * 2)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(3): print(i * 2)",
    "choices": [
     "0 1 2",
     "2 4 6",
@@ -4479,7 +4479,7 @@
   "command": "[i * i for i in range(4)]",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print([i * i for i in range(4)])",
+   "question": "다음 코드의 출력 결과는?\nprint([i * i for i in range(4)])",
    "choices": [
     "[0, 2, 4, 6]",
     "[0, 1, 4, 9]",
@@ -4497,7 +4497,7 @@
   "command": "for j in range(i):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(4):\n    for j in range(i):\n        print('*', end='')\n    print()",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(4):\n    for j in range(i):\n        print('*', end='')\n    print()",
    "choices": [
     "* ** *** ****",
     "** ** **",
@@ -4515,7 +4515,7 @@
   "command": "while n:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? n = 3\nwhile n:\n    print(n)\n    n -= 1",
+   "question": "다음 코드의 출력 결과는?\nn = 3\nwhile n:\n    print(n)\n    n -= 1",
    "choices": [
     "오류",
     "3 2 1",
@@ -4533,7 +4533,7 @@
   "command": "for a, b in zip([1, 2], 'xy'):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for a, b in zip([1, 2], 'xy'):\n    print(a, b)",
+   "question": "다음 코드의 출력 결과는?\nfor a, b in zip([1, 2], 'xy'):\n    print(a, b)",
    "choices": [
     "1 2 x y",
     "1 y 2 x",
@@ -4551,7 +4551,7 @@
   "command": "for i in range(1, 10, 3):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? for i in range(1, 10, 3):\n    print(i)",
+   "question": "다음 코드의 출력 결과는?\nfor i in range(1, 10, 3):\n    print(i)",
    "choices": [
     "4 7",
     "1 4 7 10",
@@ -4569,7 +4569,7 @@
   "command": "sum(i for i in range(5))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(sum(i for i in range(5)))",
+   "question": "다음 코드의 출력 결과는?\nprint(sum(i for i in range(5)))",
    "choices": [
     "15",
     "5",
@@ -4587,7 +4587,7 @@
   "command": "while n * n < 20:",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? n = 0\nwhile n * n < 20:\n    n += 1\nprint(n)",
+   "question": "다음 코드의 출력 결과는?\nn = 0\nwhile n * n < 20:\n    n += 1\nprint(n)",
    "choices": [
     "20",
     "4",
@@ -4605,7 +4605,7 @@
   "command": "for _ in range(3):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? s = ''\nfor _ in range(3):\n    s += 'ab'\nprint(s)",
+   "question": "다음 코드의 출력 결과는?\ns = ''\nfor _ in range(3):\n    s += 'ab'\nprint(s)",
    "choices": [
     "ab3",
     "abab",
@@ -4623,7 +4623,7 @@
   "command": "list(range(5, 0, -2))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(list(range(5, 0, -2)))",
+   "question": "다음 코드의 출력 결과는?\nprint(list(range(5, 0, -2)))",
    "choices": [
     "[4, 2]",
     "[5, 3, 1, -1]",
@@ -4641,7 +4641,7 @@
   "command": "def hi():",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def hi():\n    print('hi')\nhi()",
+   "question": "다음 코드의 출력 결과는?\ndef hi():\n    print('hi')\nhi()",
    "choices": [
     "hi",
     "오류",
@@ -4659,7 +4659,7 @@
   "command": "def add(a, b):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def add(a, b):\n    return a + b\nprint(add(1, 2))",
+   "question": "다음 코드의 출력 결과는?\ndef add(a, b):\n    return a + b\nprint(add(1, 2))",
    "choices": [
     "3",
     "12",
@@ -4677,7 +4677,7 @@
   "command": "return a * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def f(a):\n    return a * 2\nprint(f(4))",
+   "question": "다음 코드의 출력 결과는?\ndef f(a):\n    return a * 2\nprint(f(4))",
    "choices": [
     "44",
     "8",
@@ -4695,7 +4695,7 @@
   "command": "def hello(name):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def hello(name):\n    print('Hi', name)\nhello('Kim')",
+   "question": "다음 코드의 출력 결과는?\ndef hello(name):\n    print('Hi', name)\nhello('Kim')",
    "choices": [
     "오류",
     "Hi name",
@@ -4713,7 +4713,7 @@
   "command": "print(square(3))",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def square(n):\n    return n * n\nprint(square(3))",
+   "question": "다음 코드의 출력 결과는?\ndef square(n):\n    return n * n\nprint(square(3))",
    "choices": [
     "6",
     "None",
@@ -4731,7 +4731,7 @@
   "command": "def nothing():",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def nothing():\n    pass\nprint(nothing())",
+   "question": "다음 코드의 출력 결과는?\ndef nothing():\n    pass\nprint(nothing())",
    "choices": [
     "None",
     "오류",
@@ -4767,7 +4767,7 @@
   "command": "def greet(n='Kim'):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def greet(n='Kim'):\n    print(n)\ngreet()",
+   "question": "다음 코드의 출력 결과는?\ndef greet(n='Kim'):\n    print(n)\ngreet()",
    "choices": [
     "오류",
     "Kim",
@@ -4785,7 +4785,7 @@
   "command": "lambda x: x + 1",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? f = lambda x: x + 1\nprint(f(1))",
+   "question": "다음 코드의 출력 결과는?\nf = lambda x: x + 1\nprint(f(1))",
    "choices": [
     "x + 1",
     "오류",
@@ -4803,7 +4803,7 @@
   "command": "max(3, 7)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(max(3, 7))",
+   "question": "다음 코드의 출력 결과는?\nprint(max(3, 7))",
    "choices": [
     "3",
     "(3, 7)",
@@ -4821,7 +4821,7 @@
   "command": "def area(w, h=2):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def area(w, h=2):\n    return w * h\nprint(area(3))",
+   "question": "다음 코드의 출력 결과는?\ndef area(w, h=2):\n    return w * h\nprint(area(3))",
    "choices": [
     "6",
     "3",
@@ -4839,7 +4839,7 @@
   "command": "return a, b",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def f():\n    return 1, 2\nprint(f())",
+   "question": "다음 코드의 출력 결과는?\ndef f():\n    return 1, 2\nprint(f())",
    "choices": [
     "1",
     "[1, 2]",
@@ -4857,7 +4857,7 @@
   "command": "def f(*args):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def f(*args):\n    return len(args)\nprint(f(1, 2, 3))",
+   "question": "다음 코드의 출력 결과는?\ndef f(*args):\n    return len(args)\nprint(f(1, 2, 3))",
    "choices": [
     "1",
     "6",
@@ -4875,7 +4875,7 @@
   "command": "def f(**kw):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def f(**kw):\n    return kw\nprint(f(a=1))",
+   "question": "다음 코드의 출력 결과는?\ndef f(**kw):\n    return kw\nprint(f(a=1))",
    "choices": [
     "{'a': 1}",
     "a=1",
@@ -4893,7 +4893,7 @@
   "command": "global count",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? count = 0\ndef inc():\n    global count\n    count += 1\ninc()\nprint(count)",
+   "question": "다음 코드의 출력 결과는?\ncount = 0\ndef inc():\n    global count\n    count += 1\ninc()\nprint(count)",
    "choices": [
     "오류",
     "None",
@@ -4929,7 +4929,7 @@
   "command": "def fact(n):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def fact(n):\n    return 1 if n <= 1 else n * fact(n - 1)\nprint(fact(4))",
+   "question": "다음 코드의 출력 결과는?\ndef fact(n):\n    return 1 if n <= 1 else n * fact(n - 1)\nprint(fact(4))",
    "choices": [
     "12",
     "10",
@@ -4947,7 +4947,7 @@
   "command": "f = lambda a, b: a * b",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? f = lambda a, b: a * b\nprint(f(3, 4))",
+   "question": "다음 코드의 출력 결과는?\nf = lambda a, b: a * b\nprint(f(3, 4))",
    "choices": [
     "12",
     "7",
@@ -4965,7 +4965,7 @@
   "command": "def f(a, b):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def f(a, b):\n    return a - b\nprint(f(b=1, a=5))",
+   "question": "다음 코드의 출력 결과는?\ndef f(a, b):\n    return a - b\nprint(f(b=1, a=5))",
    "choices": [
     "오류",
     "6",
@@ -4983,7 +4983,7 @@
   "command": "sorted([3, 1], key=lambda x: -x)",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(sorted([3, 1], key=lambda x: -x))",
+   "question": "다음 코드의 출력 결과는?\nprint(sorted([3, 1], key=lambda x: -x))",
    "choices": [
     "[-3, -1]",
     "[1, 3]",
@@ -5001,7 +5001,7 @@
   "command": "def make(n):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def make(n):\n    return lambda x: x + n\nadd2 = make(2)\nprint(add2(5))",
+   "question": "다음 코드의 출력 결과는?\ndef make(n):\n    return lambda x: x + n\nadd2 = make(2)\nprint(add2(5))",
    "choices": [
     "오류",
     "7",
@@ -5019,7 +5019,7 @@
   "command": "def f(x, acc=[]):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def f(x, acc=[]):\n    acc.append(x)\n    return acc\nf(1)\nprint(f(2))",
+   "question": "다음 코드의 출력 결과는?\ndef f(x, acc=[]):\n    acc.append(x)\n    return acc\nf(1)\nprint(f(2))",
    "choices": [
     "[2]",
     "[1]",
@@ -5037,7 +5037,7 @@
   "command": "def fib(n):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def fib(n):\n    return n if n < 2 else fib(n - 1) + fib(n - 2)\nprint(fib(6))",
+   "question": "다음 코드의 출력 결과는?\ndef fib(n):\n    return n if n < 2 else fib(n - 1) + fib(n - 2)\nprint(fib(6))",
    "choices": [
     "6",
     "8",
@@ -5055,7 +5055,7 @@
   "command": "def gen():",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def gen():\n    yield 1\n    yield 2\nprint(list(gen()))",
+   "question": "다음 코드의 출력 결과는?\ndef gen():\n    yield 1\n    yield 2\nprint(list(gen()))",
    "choices": [
     "1 2",
     "오류",
@@ -5073,7 +5073,7 @@
   "command": "def outer():",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def outer():\n    x = 1\n    def inner():\n        return x + 1\n    return inner()\nprint(outer())",
+   "question": "다음 코드의 출력 결과는?\ndef outer():\n    x = 1\n    def inner():\n        return x + 1\n    return inner()\nprint(outer())",
    "choices": [
     "2",
     "None",
@@ -5091,7 +5091,7 @@
   "command": "map(lambda x: x * 2, [1, 2])",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(list(map(lambda x: x * 2, [1, 2])))",
+   "question": "다음 코드의 출력 결과는?\nprint(list(map(lambda x: x * 2, [1, 2])))",
    "choices": [
     "[2, 4]",
     "[2, 4, 6]",
@@ -5109,7 +5109,7 @@
   "command": "filter(lambda x: x > 1, [1, 2, 3])",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? print(list(filter(lambda x: x > 1, [1, 2, 3])))",
+   "question": "다음 코드의 출력 결과는?\nprint(list(filter(lambda x: x > 1, [1, 2, 3])))",
    "choices": [
     "[1]",
     "[1, 2, 3]",
@@ -5127,7 +5127,7 @@
   "command": "def f(n): return n * 2",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def f(n): return n * 2\nprint(f(f(2)))",
+   "question": "다음 코드의 출력 결과는?\ndef f(n): return n * 2\nprint(f(f(2)))",
    "choices": [
     "4",
     "6",
@@ -5145,7 +5145,7 @@
   "command": "def f(a, b=1, *c):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def f(a, b=1, *c):\n    return a, b, c\nprint(f(1, 2, 3, 4))",
+   "question": "다음 코드의 출력 결과는?\ndef f(a, b=1, *c):\n    return a, b, c\nprint(f(1, 2, 3, 4))",
    "choices": [
     "(1, 2, 3, 4)",
     "(1, 2, (3, 4))",
@@ -5163,7 +5163,7 @@
   "command": "def deco(fn):",
   "quiz": {
    "type": "출력 결과",
-   "question": "다음 코드의 출력 결과는? def deco(fn):\n    return lambda: fn() + 1\n@deco\ndef f():\n    return 1\nprint(f())",
+   "question": "다음 코드의 출력 결과는?\ndef deco(fn):\n    return lambda: fn() + 1\n@deco\ndef f():\n    return 1\nprint(f())",
    "choices": [
     "2",
     "None",

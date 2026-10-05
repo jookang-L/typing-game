@@ -10,17 +10,17 @@
 </head>
 <body>
 <div id="toast" role="status" aria-live="polite"></div>
+<div id="banner" role="status" aria-live="polite" hidden></div>
 
-<!-- 입장 -->
+<!-- 입장 / 방 만들기 -->
 <section id="v-entry" class="view">
-  <div class="card narrow">
+  <div class="card narrow" id="entry-card">
     <h1><i data-lucide="keyboard"></i> 파이썬 타이핑 땅따먹기</h1>
     <p class="muted">⌨ 한/영 키가 <b>영문</b>인지 확인하세요.</p>
     <div class="tabs">
-      <button id="tab-join" class="tab active">학생 입장</button>
-      <button id="tab-host" class="tab">방 만들기 (교사)</button>
+      <button id="tab-join" class="tab active" type="button">학생 입장</button>
+      <button id="tab-host" class="tab" type="button">방 만들기 (교사)</button>
     </div>
-
     <form id="join-form">
       <label>방 코드<input id="code" maxlength="6" autocomplete="off" placeholder="예: K7M2QX" style="text-transform:uppercase"></label>
       <label>닉네임
@@ -31,23 +31,50 @@
       <div class="preview">미리보기 <span id="preview"></span></div>
       <button class="primary" type="submit">입장</button>
     </form>
+  </div>
 
-    <form id="host-form" hidden>
-      <label>제한 시간(분)
-        <select id="dur"></select>
-      </label>
-      <p class="muted">프로토타입: 개인전 · 정사각형 8×8 · 샘플 문제</p>
-      <button class="primary" type="submit">방 열기</button>
-    </form>
+  <div class="card wide" id="host-card" hidden>
+    <h2><i data-lucide="settings"></i> 방 만들기</h2>
+    <p class="muted">방을 연 뒤에는 설정을 바꿀 수 없어요.</p>
+    <div class="host-grid">
+      <form id="host-form">
+        <fieldset><legend>게임 모드</legend>
+          <label class="inline"><input type="radio" name="mode" value="solo" checked> 개인전</label>
+          <label class="inline"><input type="radio" name="mode" value="team"> 팀전 (4인 1팀)</label>
+        </fieldset>
+        <label>맵 <select id="h-map"></select></label>
+        <fieldset><legend>문제 태그 (1개 이상)</legend><div id="h-tags" class="tags"></div></fieldset>
+        <label>최대 인원 <input id="h-max" type="number" min="2" max="9" value="9"></label>
+        <label>제한 시간 <select id="h-dur"></select></label>
+        <label>아이템 시작 시점 <select id="h-item"></select></label>
+        <label class="inline"><input type="checkbox" id="h-hide"> 마지막 1분 점수 비공개 (4분 이상)</label>
+        <button class="primary" type="submit">방 열기</button>
+      </form>
+      <aside class="host-preview">
+        <h3>방 미리보기</h3>
+        <div id="h-preview-map" class="mini-map"></div>
+        <ul id="h-summary" class="muted summary"></ul>
+      </aside>
+    </div>
+    <button type="button" id="h-back" class="ghost">← 돌아가기</button>
   </div>
 </section>
 
 <!-- 로비 -->
 <section id="v-lobby" class="view" hidden>
-  <div class="card">
+  <div class="card wide">
     <h2>로비</h2>
     <div class="codebox">방 코드 <b id="lobby-code"></b></div>
-    <ul id="lobby-list" class="plist"></ul>
+    <ul id="lobby-summary" class="muted summary"></ul>
+    <div id="lobby-solo"><ul id="lobby-list" class="plist"></ul></div>
+    <div id="lobby-team" hidden>
+      <div class="row">
+        <button id="assign" class="ghost" type="button">랜덤 배정</button>
+        <span class="muted">팀전은 최소 4명(2팀, 팀당 2명 이상)이 필요해요. 4명이면 랜덤 배정 결과가 1팀이므로 직접 2팀으로 나눠 주세요.</span>
+      </div>
+      <div id="teams" class="teams"></div>
+    </div>
+    <p id="lobby-problem" class="warn"></p>
     <p id="lobby-wait" class="muted">진행자가 시작하기를 기다리는 중…</p>
     <button id="start" class="primary" hidden>게임 시작</button>
   </div>
@@ -56,33 +83,48 @@
 <!-- 게임 -->
 <section id="v-game" class="view" hidden>
   <header class="topbar">
-    <span>방 <b id="g-code"></b></span>
+    <span>방 <b id="g-code"></b> · <span id="g-info" class="muted"></span></span>
     <span class="timer"><i data-lucide="timer"></i> <b id="g-time">0:00</b></span>
-    <span id="g-role" class="muted"></span>
+    <span class="right">
+      <span id="g-items-next" class="muted"></span>
+      <label class="inline small"><input type="checkbox" id="reduce"> 효과 줄이기</label>
+      <button id="endgame" class="ghost" hidden>강제 종료</button>
+    </span>
   </header>
+  <div id="attacks" class="attacks"></div>
   <div class="gamegrid">
-    <div class="board-wrap"><div id="board" class="board"></div></div>
-    <aside>
-      <h3>순위</h3>
-      <ol id="rank" class="rank"></ol>
-    </aside>
+    <div class="side-col" id="col-left"></div>
+    <div class="center"><div id="board-area"><div id="board" class="board"></div></div></div>
+    <div class="side-col" id="col-right"></div>
   </div>
   <div id="me" class="me" hidden>
-    <div class="hint" id="hint">방향키로 이동 · Enter로 칸 선택</div>
+    <div id="me-fx" class="fx"></div>
+    <div class="hint" id="hint"></div>
     <div id="cmdline" class="cmd" hidden>
       <div id="cmdtext" class="cmdtext"></div>
       <input id="typing" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="명령어 입력">
-      <div class="bar"><div id="selbar"></div></div>
     </div>
-    <div class="mine">내 점수 <b id="my-score">0</b> · 내 땅 <b id="my-cells">0</b>칸</div>
+    <div id="quiz" class="quiz" hidden>
+      <div class="qtype" id="qtype"></div>
+      <pre id="qtext" class="qtext"></pre>
+      <ol id="qchoices" class="qchoices"></ol>
+    </div>
+    <div id="result" class="result" hidden></div>
+    <div class="bar" id="timebar" hidden><div id="selbar"></div></div>
+    <div class="itemrow">
+      <div class="slots" id="slots"></div>
+      <input id="itemInput" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="아이템 이름 입력 후 Enter (예: bonus())" aria-label="아이템 이름 입력">
+      <div class="mine">내 점수 <b id="my-score">0</b> · 순위 <b id="my-rank">-</b></div>
+    </div>
   </div>
 </section>
 
 <!-- 종료 -->
 <section id="v-end" class="view" hidden>
-  <div class="card">
+  <div class="card wide">
     <h2><i data-lucide="trophy"></i> 최종 순위</h2>
-    <ol id="final" class="rank big"></ol>
+    <p id="end-note" class="muted"></p>
+    <div id="final"></div>
     <button id="again" class="primary">처음으로</button>
   </div>
 </section>

@@ -628,3 +628,12 @@ def test_cleanup_old_ended_room():
     room.tick(301)
     assert m.cleanup(400) == []
     assert m.cleanup(301 + 31 * 60) == [room.code]
+
+
+def test_export_results_is_separate_and_complete():
+    import results
+    _, room, (a, b) = started()
+    capture(room, a, 3, 1)
+    room.tick(301)
+    out = results.export_results(room, 301)
+    assert out["mode"] == "solo" and out["standings"][0]["id"] == a.pid

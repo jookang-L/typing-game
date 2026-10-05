@@ -1,0 +1,290 @@
+[
+  {
+    "id": "sq-001",
+    "tag": "출력",
+    "difficulty": "square",
+    "command": "print('Hello')",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "다음 코드의 출력 결과는? print('Hello')",
+      "choices": [
+        "Hello",
+        "'Hello'",
+        "hello",
+        "오류"
+      ],
+      "answer": 0,
+      "explanation": "print는 따옴표 없이 문자열 내용만 출력합니다."
+    }
+  },
+  {
+    "id": "sq-002",
+    "tag": "출력",
+    "difficulty": "square",
+    "command": "print(1 + 2)",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "다음 코드의 출력 결과는? print(1 + 2)",
+      "choices": [
+        "12",
+        "3",
+        "1 + 2",
+        "오류"
+      ],
+      "answer": 1,
+      "explanation": "숫자 덧셈 결과 3이 출력됩니다."
+    }
+  },
+  {
+    "id": "sq-003",
+    "tag": "출력",
+    "difficulty": "square",
+    "command": "print('a', 'b')",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "다음 코드의 출력 결과는? print('a', 'b')",
+      "choices": [
+        "ab",
+        "a,b",
+        "a b",
+        "'a' 'b'"
+      ],
+      "answer": 2,
+      "explanation": "print는 쉼표로 구분된 값 사이에 공백을 넣습니다."
+    }
+  },
+  {
+    "id": "sq-004",
+    "tag": "출력",
+    "difficulty": "square",
+    "command": "print('Hi' * 2)",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "다음 코드의 출력 결과는? print('Hi' * 2)",
+      "choices": [
+        "HiHi",
+        "Hi 2",
+        "Hi*2",
+        "오류"
+      ],
+      "answer": 0,
+      "explanation": "문자열에 정수를 곱하면 반복됩니다."
+    }
+  },
+  {
+    "id": "sq-005",
+    "tag": "변수",
+    "difficulty": "square",
+    "command": "x = 10",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "x = 10 실행 후 x의 값은?",
+      "choices": [
+        "x",
+        "10",
+        "'10'",
+        "오류"
+      ],
+      "answer": 1,
+      "explanation": "= 는 오른쪽 값을 변수에 저장합니다."
+    }
+  },
+  {
+    "id": "sq-006",
+    "tag": "변수",
+    "difficulty": "square",
+    "command": "name = 'Kim'",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "name = 'Kim' 에서 name의 자료는?",
+      "choices": [
+        "Kim 문자열",
+        "숫자",
+        "리스트",
+        "오류"
+      ],
+      "answer": 0,
+      "explanation": "따옴표로 감싼 값은 문자열입니다."
+    }
+  },
+  {
+    "id": "sq-007",
+    "tag": "변수",
+    "difficulty": "square",
+    "command": "a = b = 5",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "a = b = 5 실행 후 a + b는?",
+      "choices": [
+        "5",
+        "10",
+        "55",
+        "오류"
+      ],
+      "answer": 1,
+      "explanation": "두 변수에 모두 5가 저장됩니다."
+    }
+  },
+  {
+    "id": "sq-008",
+    "tag": "변수",
+    "difficulty": "square",
+    "command": "count = 0",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "count = 0 후 count = count + 1 을 하면 count는?",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "오류"
+      ],
+      "answer": 1,
+      "explanation": "기존 값에 1을 더해 다시 저장합니다."
+    }
+  },
+  {
+    "id": "sq-009",
+    "tag": "조건문",
+    "difficulty": "square",
+    "command": "if x > 5:",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "x가 7일 때 if x > 5: 조건은?",
+      "choices": [
+        "참",
+        "거짓",
+        "오류",
+        "None"
+      ],
+      "answer": 0,
+      "explanation": "7 > 5 는 참입니다."
+    }
+  },
+  {
+    "id": "sq-010",
+    "tag": "조건문",
+    "difficulty": "square",
+    "command": "else:",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "if가 거짓일 때 실행되는 구문은?",
+      "choices": [
+        "else",
+        "elif 뒤 if",
+        "pass",
+        "break"
+      ],
+      "answer": 0,
+      "explanation": "else는 앞 조건이 모두 거짓일 때 실행됩니다."
+    }
+  },
+  {
+    "id": "sq-011",
+    "tag": "조건문",
+    "difficulty": "square",
+    "command": "elif x == 3:",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "elif의 역할은?",
+      "choices": [
+        "추가 조건 검사",
+        "반복",
+        "함수 정의",
+        "종료"
+      ],
+      "answer": 0,
+      "explanation": "elif는 else if 와 같은 추가 조건입니다."
+    }
+  },
+  {
+    "id": "sq-012",
+    "tag": "조건문",
+    "difficulty": "square",
+    "command": "if not done:",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "done이 False일 때 if not done: 은?",
+      "choices": [
+        "참",
+        "거짓",
+        "오류",
+        "None"
+      ],
+      "answer": 0,
+      "explanation": "not False 는 True입니다."
+    }
+  },
+  {
+    "id": "sq-013",
+    "tag": "반복문",
+    "difficulty": "square",
+    "command": "for i in range(3):",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "for i in range(3): print(i) 의 출력은?",
+      "choices": [
+        "0 1 2",
+        "1 2 3",
+        "0 1 2 3",
+        "1 2"
+      ],
+      "answer": 0,
+      "explanation": "range(3)은 0,1,2 입니다."
+    }
+  },
+  {
+    "id": "sq-014",
+    "tag": "반복문",
+    "difficulty": "square",
+    "command": "while n > 0:",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "while n > 0: 은 언제 반복하나?",
+      "choices": [
+        "n이 0보다 클 때",
+        "n이 0일 때",
+        "한 번만",
+        "절대 안 함"
+      ],
+      "answer": 0,
+      "explanation": "조건이 참인 동안 반복합니다."
+    }
+  },
+  {
+    "id": "sq-015",
+    "tag": "반복문",
+    "difficulty": "square",
+    "command": "for c in 'abc':",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "for c in 'abc': 에서 c는 몇 번 바뀌나?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "문자열의 글자 수만큼 반복합니다."
+    }
+  },
+  {
+    "id": "sq-016",
+    "tag": "반복문",
+    "difficulty": "square",
+    "command": "break",
+    "quiz": {
+      "type": "출력 결과",
+      "question": "반복문 안의 break는?",
+      "choices": [
+        "반복 종료",
+        "다음 반복",
+        "함수 종료",
+        "오류"
+      ],
+      "answer": 0,
+      "explanation": "break는 반복문을 즉시 빠져나갑니다."
+    }
+  }
+]

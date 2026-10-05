@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>파이썬 타이핑 땅따먹기</title>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap">
+</head>
+<body>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<!-- 입장 -->
+<section id="v-entry" class="view">
+  <div class="card narrow">
+    <h1><i data-lucide="keyboard"></i> 파이썬 타이핑 땅따먹기</h1>
+    <p class="muted">⌨ 한/영 키가 <b>영문</b>인지 확인하세요.</p>
+    <div class="tabs">
+      <button id="tab-join" class="tab active">학생 입장</button>
+      <button id="tab-host" class="tab">방 만들기 (교사)</button>
+    </div>
+
+    <form id="join-form">
+      <label>방 코드<input id="code" maxlength="6" autocomplete="off" placeholder="예: K7M2QX" style="text-transform:uppercase"></label>
+      <label>닉네임
+        <span class="row"><input id="nick" maxlength="12" autocomplete="off"><button type="button" id="reroll" class="ghost" title="다시 뽑기"><i data-lucide="dices"></i></button></span>
+      </label>
+      <div>캐릭터 <div id="chars" class="pick"></div></div>
+      <div>색상 <div id="colors" class="pick"></div></div>
+      <div class="preview">미리보기 <span id="preview"></span></div>
+      <button class="primary" type="submit">입장</button>
+    </form>
+
+    <form id="host-form" hidden>
+      <label>제한 시간(분)
+        <select id="dur"></select>
+      </label>
+      <p class="muted">프로토타입: 개인전 · 정사각형 8×8 · 샘플 문제</p>
+      <button class="primary" type="submit">방 열기</button>
+    </form>
+  </div>
+</section>
+
+<!-- 로비 -->
+<section id="v-lobby" class="view" hidden>
+  <div class="card">
+    <h2>로비</h2>
+    <div class="codebox">방 코드 <b id="lobby-code"></b></div>
+    <ul id="lobby-list" class="plist"></ul>
+    <p id="lobby-wait" class="muted">진행자가 시작하기를 기다리는 중…</p>
+    <button id="start" class="primary" hidden>게임 시작</button>
+  </div>
+</section>
+
+<!-- 게임 -->
+<section id="v-game" class="view" hidden>
+  <header class="topbar">
+    <span>방 <b id="g-code"></b></span>
+    <span class="timer"><i data-lucide="timer"></i> <b id="g-time">0:00</b></span>
+    <span id="g-role" class="muted"></span>
+  </header>
+  <div class="gamegrid">
+    <div class="board-wrap"><div id="board" class="board"></div></div>
+    <aside>
+      <h3>순위</h3>
+      <ol id="rank" class="rank"></ol>
+    </aside>
+  </div>
+  <div id="me" class="me" hidden>
+    <div class="hint" id="hint">방향키로 이동 · Enter로 칸 선택</div>
+    <div id="cmdline" class="cmd" hidden>
+      <div id="cmdtext" class="cmdtext"></div>
+      <input id="typing" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="명령어 입력">
+      <div class="bar"><div id="selbar"></div></div>
+    </div>
+    <div class="mine">내 점수 <b id="my-score">0</b> · 내 땅 <b id="my-cells">0</b>칸</div>
+  </div>
+</section>
+
+<!-- 종료 -->
+<section id="v-end" class="view" hidden>
+  <div class="card">
+    <h2><i data-lucide="trophy"></i> 최종 순위</h2>
+    <ol id="final" class="rank big"></ol>
+    <button id="again" class="primary">처음으로</button>
+  </div>
+</section>
+
+<script src="/static/vendor/socket.io.min.js"></script>
+<script src="/static/vendor/lucide.min.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -80,8 +80,25 @@ async def drain_notices(room) -> None:
         await push_all_me(room)
 
 
+_pending: dict[str, asyncio.Task] = {}
+
+
+def request_broadcast(room, delay: float = 0.2) -> None:
+    """상태 전송을 모아서 보낸다. 36명이 동시에 움직여도 방당 초당 5번 안팎으로 제한."""
+    if room.code in _pending:
+        return
+
+    async def flush():
+        await asyncio.sleep(delay)
+        _pending.pop(room.code, None)
+        if room.code in manager.rooms:
+            await broadcast(room)
+
+    _pending[room.code] = asyncio.create_task(flush())
+
+
 async def after_action(room, sid: str, player) -> None:
-    await broadcast(room)
+    request_broadcast(room)
     await drain_notices(room)
     if player:
         await push_self(room, sid, player)
@@ -309,8 +326,9 @@ async def ticker() -> None:
             if room.state != "playing":
                 continue
             before = room.state
-            room.tick(t)
-            await broadcast(room)
+            expired = room.tick(t)
+            if expired or room.notices or before != room.state or n % 4 == 0:
+                request_broadcast(room, 0.05)
             await drain_notices(room)
             if n % 2 == 0 or before != room.state:
                 await push_all_me(room)

@@ -134,7 +134,6 @@ sock.on("cursor", (c) => {
 sock.on("kicked", () => { clearSession(); toast("진행자가 내보냈어요."); setTimeout(() => location.reload(), 900); });
 sock.on("notice", (n) => {
   const st = S.state;
-  const myName = (n.attacker_side && st) ? null : null;
   switch (n.type) {
     case "item_spawn": banner("✨ 아이템이 등장했습니다!"); break;
     case "hit": toast(`🌀 방해! ${n.item} 효과를 받았어요 (${n.seconds}초)`); break;
@@ -311,7 +310,7 @@ function renderCards(st, sideOf) {
     const nums = team
       ? `<span>땅 ${s.cells}</span><span>합계 ${s.score ?? "?"}</span><span>평균 ${s.avg ?? "?"}</span>`
       : `<span>땅 ${s.cells}</span><span>점수 ${s.score ?? "?"}</span>`;
-    const mem = team ? `<div class="mem">${s.members.map((m) => `<span class="${m.pid === S.pid ? "you" : ""}">${icon(m.character)} ${escapeHtml(m.nickname)}${m.pid === S.pid ? " (나)" : ""} · ${m.captures}칸 ${m.quizCorrect}정답 ${m.score ?? "?"}점</span>`).join("")}</div>` : "";
+    const mem = team ? `<div class="mem">${s.members.map((m) => `<span class="${m.pid === S.pid ? "you" : ""}" title="점령 ${m.captures} · 퀴즈 정답 ${m.quizCorrect} · 개인 ${m.score ?? "?"}점">${escapeHtml(m.nickname)} <b>${m.score ?? "?"}</b></span>`).join("")}</div>` : "";
     const title = team ? escapeHtml(s.name) : `${icon(s.members[0]?.character || "cat")} ${escapeHtml(s.name)}`;
     return `<div class="card-win ${me ? "me" : ""}" style="--c:${s.color}"><div class="head"><span class="sw pat-${idx}"></span>${title}${shield.length ? ` <span class="shield" title="면역">🛡${Math.ceil(Math.max(...shield.map((x) => x.immuneLeft)))}</span>` : ""}<span class="me-label">${me ? (team ? "내 팀" : "나") : ""}</span></div><div class="nums"><span>#${s.rank ?? "?"}</span>${nums}</div>${mem}</div>`;
   };

@@ -36,3 +36,7 @@ PRD 12.1의 1단계(MVP)부터 3단계(확장 2)까지 한 번에 구현했다. 
 pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
+
+## 문제 검수 (엑셀)
+- `review/문제검수.xlsx`: 안내 / 타이핑 문제 / 퀴즈_태그 9개 시트. 노란 칸(검수·수정 메모)에 기록
+- 다시 만들기: `python tools/export_xlsx.py` · 수정본 반영: `python tools/import_xlsx.py review/문제검수.xlsx` (형식 오류가 있으면 반영하지 않고 알려 줌)
